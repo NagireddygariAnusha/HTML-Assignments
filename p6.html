@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+    <style>
+        *{
+            margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .container{
+            min-height: 100vh;
+                background-color: rgb(44, 184, 34);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+        }
+        form{
+                background-color: white;
+                width: 350px;
+                padding: 30px;
+               
+            }
+            form_input{
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 15px;
+                margin-top: 8px;
+                border: none;
+                outline: none;
+                border: 30px solid gray;
+                border-radius: 4px;
+                border: spacing 30px;;
+                
+            
+            
+
+            }
+            button{
+                width: 100%;
+                padding: 10px;
+                border: none;
+                background-color: green;
+                color: white;
+                border-radius: 4px;
+                border-radius: 3%;
+            }
+            label{
+                color: rgb(54, 54, 54);
+            }
+            form input:hover{
+                background-color: rgba(145, 255, 0, 0.178);
+                border: 1px solid rgb(189, 36, 131);
+            }
+            }
+        
+    </style>
+</head>
+<body>
+     <!-- <h1>Creating simple registration form</h1> -->
+        
+     <section class="container">
+        <form autocomplete="on">
+            <center><h3>CONTACT US</h3></center>
+            <br>
+            <label for="Name"></label>
+            <input type="Name" placeholder="Name" requiredlength="5" maxlength="15" >
+            <br><br>
+            <label for="Subject"></label>
+            <input type="Subject" placeholder="Subject" requiredlength="5" maxlength="15">
+            <br><br>
+            <label for="Phone"></label>
+            <input type="Phone" placeholder="Phone" requiredlength="5" maxlength="15">
+            <br><br>
+            <label for="email"></label>
+            <input type="email" placeholder="email">
+            <br><br>
+            <button type="submit"> submit</button>
+</body>
+</html>

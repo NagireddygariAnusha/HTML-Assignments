@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <title>HTML FORM TAG elements</title>
+        <style>
+            *{
+                margin: 0;
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            .container{
+                min-height: 100vh;
+                background-color: rgb(225, 229, 29);
+                display: flex;
+                align-items: center;
+                justify-content: left;
+                border-spacing: 20;
+            }
+            form{
+                background-color: white;
+                width: 350px;
+                padding: 30px;
+                border-radius: 10px;
+            }
+            
+        </style>
+        
+        <!-- <h1>Creating simple registration form</h1> -->
+
+        
+        <section class="container">
+            <form autocomplete="off">
+                <h3>Registration form</h3>
+              <br>
+                <label for="firstname">First name</label>
+                <input type="text" id="firstname" placeholder="Enter your  firstname" name="firstname" required minlength="6" maxlength="10"> <br>
+
+                <label for="lastname">Last name</label> 
+                <input type="text" placeholder="Enter your  Lastname" id="lastname" name="lastname" required minlength="6" maxlength="10"> <br>
+
+                <label for="email">Email address</label> 
+                <input type="email" name="email" id="email" placeholder="Enter your email" required><br>
+
+                <label for="password">password</label> 
+                <input type="password" name="password" id="password" placeholder="Enter your password" required minlength="8" maxlength="10"><br>
+
+                
+                <label for="Conform password">password</label> 
+                <input type=" conform password" name="password" id="password" placeholder="Enter your password" required minlength="8" maxlength="10"><br>
+
+                
+                <label for="Gender">Gender</label> 
+                <input type="Gender" name="gender" id="gender" placeholder="Enter your Gender"  required minlength="8" maxlength="10"><br>
+
+                <label for="Phone Number"> Phone number</label>
+                <input type="Phone Number" name="Phone number" id="Phone number" placeholder="Enter your phone Number" required minlength="8" maxlength="10"><br>
+
+                <label for="address">address</label>
+                <input type="Address" name="Address" id="Address" required minlength="8" maxlength="30"><br>
+
+                <button type="submit">Create account</button>
+                <section><header> RESPONSIVE <br> REGISTRATION <br>
+                    FORM IN <br> HTML&CSS</header></section>
+
+                
+            </form>
+        </section>
+    </body>
+</html>
